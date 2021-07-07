@@ -1,0 +1,2 @@
+if(!validator.validate(email.trim())) return res.status(400).json({status: false, error: 'Енгізілген e-mail қате!'})
+        if(password.trim().length < 8) return res.status(400).json({status: false, error: 'Құпия сөз өте қысқа!'})

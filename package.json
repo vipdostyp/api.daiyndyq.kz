@@ -1,0 +1,24 @@
+{
+  "name": "api_daiyndyq_kz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon app/main"
+  },
+  "author": "darks, inc.",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dateformat": "^4.5.1",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2",
+    "nodemon": "^2.0.9",
+    "pg": "^8.6.0"
+  },
+  "_moduleAliases": {
+    "@app": "app",
+    "@public": "public"
+  }
+}
